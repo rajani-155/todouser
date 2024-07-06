@@ -21,7 +21,7 @@ const App = () => {
         <Route path="/register" element={<Register />} />
         <Route path="/login" element={<Login setToken={handleSetToken} />} />
         <Route path="/todos" element={<Todo />} />
-        <Route path="/" element={<Home />} /> {/* Add your Home component if you have one */}
+        <Route path="/" element={<Home />} /> 
       </Routes>
     </Router>
   );
